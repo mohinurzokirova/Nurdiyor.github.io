@@ -1,0 +1,1106 @@
+@font-face {
+  font-family: "SegoeUIRegular";
+  src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
+  src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"), url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeUIBold";
+  src: url("../fonts/SegoeUIBold/SegoeUIBold.eot");
+  src: url("../fonts/SegoeUIBold/SegoeUIBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"), url("../fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeUIItalic";
+  src: url("../fonts/SegoeUIItalic/SegoeUIItalic.eot");
+  src: url("../fonts/SegoeUIItalic/SegoeUIItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUIItalic/SegoeUIItalic.woff") format("woff"), url("../fonts/SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeUILight";
+  src: url("../fonts/SegoeUILight/SegoeUILight.eot");
+  src: url("../fonts/SegoeUILight/SegoeUILight.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUILight/SegoeUILight.woff") format("woff"), url("../fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeUISemiBold";
+  src: url("../fonts/SegoeUISemiBold/SegoeUISemiBold.eot");
+  src: url("../fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"), url("../fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+  src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"), url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 960px;
+}
+.container-fluid {
+  padding: 0px;
+}
+header {
+  background: url('../image/header-back.jpg');
+  background-repeat: no-repeat;
+  padding-top: 7px;
+  color: white;
+}
+header .tillar {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 5px 4px;
+  margin-top: -6px;
+}
+header .col-lg-7 {
+  padding-top: 5px;
+  padding-left: 10px;
+  text-align: left;
+  padding-left: 0px;
+  font-size: 30.63px;
+  font-family: "SegoeUIBold";
+  text-transform: uppercase;
+  text-shadow: 1px 1px 4px black;
+}
+header .col-lg-7 p {
+  font-family: "SegoeUILight";
+  font-size: 12px;
+}
+header .col-lg-4 {
+  padding: 0px;
+  text-align: right;
+  font-family: 'Times New Roman';
+  font-style: italic;
+  font-size: 20px;
+  text-shadow: 1px 1px 5px black;
+}
+header .col-lg-4 p {
+  font-size: 14px;
+}
+header .col-lg-4 .telefon {
+  background: #ffb400;
+  font-size: 14px;
+  font-family: "SegoeUIRegular";
+  text-shadow: none;
+  font-style: normal;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 12px;
+}
+header .col-lg-4 .telefon span {
+  font-family: "SegoeUIBold";
+  font-size: 16px;
+}
+header .navbar-default {
+  margin-bottom: 0px;
+  background: #309ed1;
+  border: none;
+  border-radius: 0px;
+  padding: 0px;
+}
+header .navbar-default .container-fluid {
+  padding: 0px;
+}
+header .navbar-default .container-fluid .navbar-collapse {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+header .navbar-default .navbar-nav li {
+  background: #309ed1;
+}
+header .navbar-default .navbar-nav li a {
+  padding: 18px 22px;
+  font-size: 15px;
+  font-family: "SegoeUIRegular";
+  color: white;
+  text-transform: uppercase;
+}
+header .navbar-default .navbar-nav li a:hover,
+header .navbar-default .navbar-nav li a:focus {
+  color: white;
+}
+header .navbar-default .navbar-nav li:hover,
+header .navbar-default .navbar-nav li:focus {
+  background: #52c2f6;
+}
+header .navbar-default .navbar-nav li:hover a,
+header .navbar-default .navbar-nav li:focus a {
+  color: white;
+}
+.karusel {
+  background: url('../image/naqsh-background.jpg');
+  padding-bottom: 10px;
+}
+.karusel .carousel {
+  margin: 0px;
+  padding: 0px;
+}
+.karusel .carousel img {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+.karusel .carousel .carousel-caption {
+  position: absolute;
+  font-size: 26px;
+  color: white;
+  font-family: "SegoeUIBold";
+  text-transform: uppercase;
+  background: rgba(15, 105, 176, 0.5);
+  left: 5%;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.karusel .carousel .carousel-control {
+  background: none;
+  opacity: 1;
+}
+.karusel .carousel .carousel-control:hover,
+.karusel .carousel .carousel-control:focus {
+  background: none;
+}
+.karusel .carousel .carousel-control .glyphicon {
+  font-size: 12px;
+  color: black;
+  text-shadow: none;
+  font-weight: lighter;
+  opacity: 1;
+  position: absolute;
+  background: #ededed;
+  text-align: center;
+  top: 43%;
+  padding-top: 15px;
+  height: 40px;
+  width: 40px;
+}
+.karusel .carousel .carousel-control .glyphicon:hover,
+.karusel .carousel .carousel-control .glyphicon:focus {
+  background: #309ed1;
+  color: white;
+}
+.karusel .carousel .carousel-control .glyphicon-chevron-left {
+  padding-left: 5px;
+}
+.karusel .carousel .carousel-control .glyphicon-chevron-right {
+  padding-right: 5px;
+}
+.korxona {
+  background: url('../image/back-korxona_haqida.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.korxona .col-lg-4 {
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  font-family: "SegoeUIBold";
+}
+.korxona .border {
+  border-bottom: 1px solid white;
+  height: 15px;
+}
+.korxona .col-lg-12 {
+  margin-top: 20px;
+  color: white;
+  text-indent: 20px;
+  font-size: 16px;
+  font-family: "SegoeUIRegular";
+  text-align: justify;
+}
+.korxona .col-lg-12 p {
+  padding-top: 10px;
+}
+.mahsulot {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background: url('../image/naqsh-background.jpg');
+  background-repeat: repeat-y;
+}
+.mahsulot .nav-stacked li {
+  background: #ededed;
+  border: none;
+  margin: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mahsulot .nav-stacked li:hover,
+.mahsulot .nav-stacked li:focus {
+  background: #196591;
+  color: white;
+}
+.mahsulot .nav-stacked li:hover a,
+.mahsulot .nav-stacked li:focus a {
+  background: #196591;
+  color: white;
+  border: 1px solid #196591;
+}
+.mahsulot .nav-stacked li:hover a span,
+.mahsulot .nav-stacked li:focus a span {
+  display: none;
+}
+.mahsulot .nav-stacked li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
+  font-family: "SegoeUIRegular";
+  border-bottom: 1px solid #d3d3d3;
+  border-radius: 0px;
+  font-weight: 500;
+}
+.mahsulot .yil {
+  background: url('../image/yil_nomi.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 29.5px;
+  color: white;
+  font-family: "SegoeUIItalic";
+  text-shadow: 1px 1px 4px black;
+  padding: 37px 10px;
+}
+.mahsulot .yil p {
+  font-size: 14.7px;
+}
+.mahsulot .kurs {
+  margin-top: 23px;
+}
+.mahsulot .kurs .nomi {
+  color: black;
+  font-size: 16px;
+  font-family: "OpenSansLight";
+  text-align: center;
+}
+.mahsulot .border {
+  border-bottom: 1px solid #d3d3d3;
+}
+.mahsulot .name {
+  color: black;
+  font-family: "SegoeUIBold";
+  text-align: center;
+  font-size: 17px;
+  margin-top: -13px;
+}
+.mahsulot .col-lg-9 {
+  padding-left: 30px;
+}
+.mahsulot .col-lg-9 .col-lg-4 {
+  color: black;
+}
+.mahsulot .col-lg-9 .col-lg-4 img {
+  max-width: 100%;
+  min-width: 100%;
+  position: relative;
+}
+.mahsulot .col-lg-9 .col-lg-4 h4 a {
+  font-size: 16px;
+  color: black;
+  font-family: "SegoeUIBold";
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.mahsulot .col-lg-9 .col-lg-4 p {
+  font-family: "SegoeUILight";
+  font-size: 12px;
+  margin-bottom: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90%;
+  height: 50px;
+}
+.mahsulot .col-lg-9 .col-lg-4 .new {
+  position: absolute;
+  top: 2.5%;
+  right: 10%;
+}
+.mahsulot .col-lg-9 .col-lg-4 .block {
+  background: #ffb400;
+  border-radius: 0px;
+  padding: 6px 7px;
+  position: relative;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "SegoeUIRegular";
+  text-align: center;
+}
+.mahsulot .col-lg-9 .col-lg-4 .block::after {
+  content: '';
+  position: absolute;
+  left: 20px;
+  bottom: -15px;
+  border: 8px solid transparent;
+  border-top: 8px solid #ffb400;
+}
+.mahsulot .col-lg-9 .mahsulotlar {
+  margin-top: 10px;
+}
+.mahsulot .col-lg-9 .batafsil {
+  text-transform: uppercase;
+  color: white;
+  background: #309ed1;
+  font-family: "SegoeUIBold";
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 27px;
+  position: absolute;
+  top: 52.8%;
+  display: none;
+  width: 87.4%;
+}
+.mahsulot .btn-default {
+  background: #ffb400;
+  margin-top: 15px;
+  color: white;
+  font-size: 12px;
+  font-family: "SegoeUIRegular";
+  border: none;
+  border-radius: 0px;
+  padding: 9px 20px;
+  border: 2px solid #ffb400;
+}
+.mahsulot .btn-default:hover,
+.mahsulot .btn-default:focus {
+  background: white;
+  color: #ffb400;
+  border: 2px solid #ffb400;
+}
+.mahsulot .yangilik {
+  margin-top: 50px;
+}
+.mahsulot .davomi {
+  margin-top: 5px;
+}
+.mahsulot .pagination {
+  border-radius: 0px;
+}
+.mahsulot .pagination li a {
+  border-radius: 0px;
+  border: 1px solid #ffb400;
+  color: black;
+}
+.mahsulot .pagination li a:hover,
+.mahsulot .pagination li a:focus {
+  background: #ffb400;
+  color: white;
+}
+.mahsulot .yangiliklar .col-lg-4 {
+  margin-top: 15px;
+  padding: 0px;
+}
+.mahsulot .yangiliklar .col-lg-4 img {
+  width: 94%;
+  max-width: 94%;
+  min-width: 94%;
+}
+.mahsulot .yangiliklar .col-lg-4 p,
+.mahsulot .yangiliklar .col-lg-4 h4 {
+  width: 90%;
+}
+.mahsulot .yangiliklar .col-lg-4 h4 a {
+  font-size: 16px;
+  color: #333333;
+  font-family: "SegoeUIBold";
+}
+.mahsulot .yangiliklar .col-lg-4 h4 a:hover,
+.mahsulot .yangiliklar .col-lg-4 h4 a:focus {
+  text-decoration: none;
+}
+.mahsulot .yangiliklar .col-lg-4 p a {
+  font-family: "SegoeUILight";
+  font-size: 14px;
+  text-align: justify;
+  color: #333333;
+}
+.mahsulot .yangiliklar .col-lg-4 p a:hover,
+.mahsulot .yangiliklar .col-lg-4 p a:focus {
+  text-decoration: none;
+}
+.mahsulot .yangiliklar .col-lg-4 h5 {
+  color: #05a5b1;
+  font-size: 14px;
+  font-family: "SegoeUIBold";
+  text-align: left;
+  margin-top: 10px;
+}
+.mahsulot .yangiliklar .ikki {
+  padding-left: 20px;
+}
+.mahsulot .mijozlar {
+  margin-top: 40px;
+}
+.mahsulot .karusel2 {
+  padding: 30px 30px;
+}
+.mahsulot .karusel2 .carousel-control {
+  background: none;
+}
+.mahsulot .karusel2 .carousel-control:hover,
+.mahsulot .karusel2 .carousel-control:focus {
+  background: none;
+}
+.mahsulot .karusel2 .chapga,
+.mahsulot .karusel2 .unga {
+  position: absolute;
+  top: 40%;
+}
+.mahsulot .karusel2 .chapga {
+  left: -23%;
+}
+.mahsulot .karusel2 .unga {
+  right: -23%;
+}
+.mahsulot .karusel2 .belgi {
+  position: absolute;
+  left: -5%;
+  top: -4%;
+}
+.mahsulot .karusel2 p,
+.mahsulot .karusel2 h5,
+.mahsulot .karusel2 h6 {
+  color: black;
+  font-size: 14px;
+  font-family: "SegoeUIRegular";
+  text-indent: 30px;
+  text-align: justify;
+}
+.mahsulot .karusel2 h5 {
+  font-family: "SegoeUIBold";
+  text-indent: 0;
+}
+.mahsulot .karusel2 h6 {
+  font-family: "SegoeUIItalic";
+  text-indent: 0;
+}
+.mahsulot .boglanish {
+  margin-top: 20px;
+  background: white;
+}
+.mahsulot .boglanish input {
+  border-radius: 0px;
+  border: 1px solid #c1c1c1;
+  border-right: none;
+}
+.mahsulot .boglanish input:hover,
+.mahsulot .boglanish input:focus {
+  box-shadow: none;
+}
+.mahsulot .boglanish button {
+  background: none;
+  border-radius: 0px;
+  border: 1px solid #c1c1c1;
+  border-left: none;
+  color: #c1c1c1;
+  cursor: default;
+}
+.mahsulot .boglanish button:hover,
+.mahsulot .boglanish button:focus {
+  box-shadow: none;
+}
+.mahsulot .boglanish textarea {
+  margin-top: 10px;
+  border-radius: 0px;
+  border: 1px solid #c1c1c1;
+}
+.mahsulot .boglanish textarea:hover,
+.mahsulot .boglanish textarea:focus {
+  box-shadow: none;
+}
+.xarita {
+  position: relative;
+}
+.xarita img {
+  width: 100%;
+}
+.xarita .xarita_uchun {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+.xarita .manzil {
+  z-index: 100;
+  background: white;
+  padding: 10px 17px;
+  position: absolute;
+  top: 31%;
+  left: 35.6%;
+}
+.xarita p {
+  text-align: left;
+  font-size: 14px;
+  color: black;
+  font-family: "SegoeUIRegular";
+}
+.xarita p span {
+  color: #ffb400;
+  font-size: 16px;
+}
+footer {
+  background: url('../image/footer-back.jpg');
+  background-size: cover;
+  padding-bottom: 80px;
+}
+footer .navbar-default {
+  margin-bottom: 0px;
+  background: none;
+  border: none;
+  padding: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer .navbar-default .container-fluid {
+  padding: 0px;
+}
+footer .navbar-default .navbar-collapse {
+  padding: 0px;
+}
+footer .navbar-default .navbar-nav li a {
+  padding: 18px 10px;
+  font-size: 16px;
+  font-family: "SegoeUIRegular";
+  color: white;
+  text-transform: uppercase;
+}
+footer .navbar-default .navbar-nav li a:hover,
+footer .navbar-default .navbar-nav li a:focus {
+  color: white;
+}
+footer .navbar-default .navbar-nav li a:first-child {
+  padding-left: 0px;
+}
+footer .navbar-default .navbar-nav li .sotsial {
+  padding: 16px 4px !important;
+}
+footer .navbar-default .navbar-nav li .sotsial img {
+  width: 18px;
+}
+footer .navbar-default .navbar-right {
+  padding-right: 15px;
+}
+footer .copy {
+  padding-top: 30px;
+}
+footer .copy .col-lg-6 {
+  padding: 0px;
+  color: #8a9abd;
+  font-family: "SegoeUIRegular";
+  font-size: 12px;
+  text-transform: uppercase;
+}
+footer .copy .nextt {
+  text-align: right;
+}
+footer .copy .nextt a {
+  color: #8a9abd;
+}
+@media screen and (min-width: 1610px) {
+  header {
+    background-size: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: auto;
+  }
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  header .col-lg-7 {
+    font-size: 27px;
+  }
+  header .navbar-default .navbar-nav li a {
+    font-size: 15px;
+    padding: 18px 20px;
+  }
+  .karusel .carousel .carousel-caption {
+    font-size: 24px;
+  }
+  .mahsulot .davomi {
+    margin-top: 3px !important;
+  }
+  .mahsulot .col-lg-9 {
+    padding-left: 0px;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 .batafsil {
+    font-size: 13px;
+    top: 51%;
+    width: 86.5%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 920px) {
+  header .col-lg-7 {
+    font-size: 20px !important;
+    padding-left: 10px !important;
+  }
+  header .navbar-default .navbar-nav li a {
+    font-size: 14.5px;
+  }
+  header .col-lg-4 .telefon {
+    font-size: 13px;
+    padding: 10px 10px;
+  }
+  header .col-lg-4 .telefon span {
+    font-size: 13px;
+  }
+  .mahsulot .col-lg-9 {
+    padding-left: 0px;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 .batafsil {
+    font-size: 12px;
+    padding: 7px 20px;
+    top: 50%;
+    width: 85%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 860px) {
+  header .col-lg-4 .telefon {
+    font-size: 13px;
+    padding: 10px 5px;
+  }
+  header .col-lg-4 .telefon span {
+    font-size: 13px;
+  }
+  header .col-lg-7 {
+    font-size: 23px;
+    padding-left: 0px;
+  }
+  header .navbar-default .navbar-nav li a {
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+  .mahsulot .col-lg-9 {
+    padding-left: 0px;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 .batafsil {
+    font-size: 12px;
+    padding: 7px 10px;
+    top: 48%;
+    width: 84%;
+  }
+  .karusel .carousel .carousel-caption {
+    font-size: 21px;
+  }
+  footer .navbar-default .navbar-nav li a {
+    padding: 18px 8px;
+    font-size: 15px;
+  }
+  footer .copy .col-lg-6 {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: auto;
+  }
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  header {
+    text-align: center;
+  }
+  header .navbar-defaul .container-fluid .navbar-header .navbar-toggle {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  header .menyu-nomi {
+    text-align: center;
+  }
+  header .col-lg-7 {
+    font-size: 27px;
+    padding-left: 10px;
+  }
+  header .col-lg-7 .pahta {
+    text-align: right;
+  }
+  header .col-lg-4 .telefonn {
+    text-align: center;
+  }
+  header .col-lg-4 .telefon {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  header .col-lg-4 .telefon span {
+    font-size: 14px;
+  }
+  .korxona {
+    padding-bottom: 80px;
+  }
+  .korxona .col-lg-12 p {
+    padding-top: 0px;
+  }
+  .karusel .carousel .carousel-caption {
+    font-size: 18px;
+    left: 9%;
+    width: 80%;
+  }
+  .karusel .carousel .carousel-control .glyphicon {
+    background: none;
+  }
+  .karusel .carousel .carousel-control .glyphicon:hover,
+  .karusel .carousel .carousel-control .glyphicon:focus {
+    background: none;
+  }
+  .yangilikkk {
+    padding-top: 0px;
+  }
+  .mahsulot {
+    text-align: center;
+  }
+  .mahsulot .davomi {
+    margin-top: 3px !important;
+  }
+  .mahsulot .col-xs-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .mahsulot .yil,
+  .mahsulot .kurs {
+    width: 100%;
+  }
+  .mahsulot .name {
+    color: black;
+    font-family: "SegoeUIBold";
+    text-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  .mahsulot .col-lg-9 {
+    text-align: center;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 img {
+    max-width: 100%;
+    min-width: 100%;
+    position: relative;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 h4 a {
+    font-size: 18px;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 p {
+    font-size: 14px;
+    margin-top: 25px;
+    width: 100%;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 .new {
+    top: 3%;
+    right: 15%;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 .batafsil {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 27px;
+    position: absolute;
+    width: 100%;
+    top: 72.3%;
+    display: none;
+  }
+  .mahsulot .yangilik {
+    margin-top: 20px;
+  }
+  .mahsulot .yangilik .col-xs-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .mahsulot .yangiliklar {
+    text-align: center;
+  }
+  .mahsulot .yangiliklar .col-lg-4 {
+    text-align: center;
+  }
+  .mahsulot .yangiliklar .col-lg-4 img {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .mahsulot .yangiliklar .col-lg-4 p {
+    width: 100%;
+  }
+  .mahsulot .yangiliklar .col-lg-4 h5 {
+    text-align: center;
+  }
+  .mahsulot .yangiliklar .ikki {
+    padding-left: 0px;
+  }
+  .mahsulot .karusel2 {
+    text-align: center;
+  }
+  .mahsulot .karusel2 img {
+    margin-left: 30%;
+  }
+  .mahsulot .karusel2 .chapga {
+    left: -50%;
+  }
+  .mahsulot .karusel2 .unga {
+    right: -50%;
+  }
+  .boglanish input,
+  .boglanish button {
+    margin-top: 10px;
+  }
+  .xarita img {
+    width: 100%;
+    height: 150px;
+  }
+  .xarita .manzil {
+    z-index: 100;
+    background: white;
+    padding: 10px 10px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+  }
+  .xarita p {
+    text-align: left;
+  }
+  .xarita p span {
+    font-size: 15px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .copy {
+    padding-top: 60px;
+    text-align: center;
+  }
+  footer .copy .nextt {
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 555px) {
+  header .col-lg-7 {
+    font-size: 26px;
+  }
+  .mahsulot .col-lg-9 {
+    text-align: center;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 .batafsil {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 27px;
+    position: absolute;
+    top: 64.3%;
+    display: none;
+  }
+}
+@media screen and (max-width: 495px) {
+  header .col-lg-7 {
+    font-size: 20px;
+  }
+  .mahsulot .col-lg-9 {
+    text-align: center;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 .batafsil {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 27px;
+    position: absolute;
+    top: 62.3%;
+    display: none;
+    width: 79.4%;
+    left: 9%;
+  }
+}
+@media screen and (max-width: 460px) {
+  header .col-lg-7 {
+    font-size: 19px;
+  }
+  .karusel .carousel .carousel-caption {
+    font-size: 16px;
+  }
+  .mahsulot .col-lg-9 {
+    text-align: center;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 .batafsil {
+    top: 62.3%;
+  }
+  .korxona {
+    padding-bottom: 90px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .korxona {
+    padding-bottom: 100px;
+  }
+  header .col-lg-7 {
+    font-size: 18px;
+  }
+  .mahsulot .col-lg-9 {
+    text-align: center;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 .batafsil {
+    top: 58.3%;
+  }
+  .xarita img {
+    width: 100%;
+    height: 150px;
+  }
+  .xarita .manzil {
+    z-index: 100;
+    background: white;
+    padding: 10px 10px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+  }
+  .xarita p {
+    text-align: left;
+  }
+  .xarita p span {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .korxona {
+    padding-bottom: 115px;
+  }
+  .korxona .col-lg-12 p {
+    padding-top: 0px;
+  }
+  header .col-lg-7 {
+    font-size: 18px;
+    padding-left: 5px;
+  }
+  header .col-lg-7 p {
+    text-align: center;
+    font-size: 11px;
+  }
+  .mahsulot .col-lg-9 {
+    text-align: center;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 .batafsil {
+    top: 55.3%;
+  }
+}
+@media screen and (max-width: 330px) {
+  .karusel .carousel .carousel-caption {
+    font-size: 12px;
+  }
+  .mahsulot .col-lg-9 {
+    text-align: center;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 .batafsil {
+    top: 51.3%;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 p {
+    height: auto;
+  }
+}
+@media screen and (max-width: 310px) {
+  .korxona {
+    padding-bottom: 135px;
+  }
+  .korxona .col-lg-12 p {
+    padding-top: 0px;
+  }
+  .mahsulot .col-lg-9 {
+    text-align: center;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 .batafsil {
+    top: 47.3%;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 p {
+    height: auto;
+  }
+}
+@media screen and (max-width: 418px) {
+  header {
+    text-align: center;
+  }
+  header .menyu-nomi {
+    text-align: center;
+  }
+  header .col-lg-4 .telefon {
+    font-size: 12px;
+    padding: 10px 5px;
+  }
+  header .col-lg-4 .telefon span {
+    font-size: 14px;
+  }
+  .karusel .carousel .carousel-caption {
+    font-size: 13px;
+    left: 7%;
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .karusel2 {
+    text-align: center;
+  }
+  .karusel2 img {
+    margin-left: 20%;
+  }
+  .karusel2 .chapga {
+    left: -70%;
+  }
+  .karusel2 .unga {
+    right: -70%;
+  }
+}
+@media screen and (max-width: 345px) {
+  header {
+    text-align: center;
+  }
+  header .menyu-nomi {
+    text-align: center;
+  }
+  header .col-lg-7 {
+    font-size: 16px;
+    padding-left: 0px;
+  }
+  header .col-lg-7 .pahta {
+    text-align: right;
+  }
+  .karusel .carousel .carousel-caption {
+    font-size: 12px;
+    left: 9%;
+    width: 80%;
+    padding-bottom: 0px;
+    padding-top: 12px;
+  }
+}
+@media screen and (max-width: 302px) {
+  header {
+    text-align: center;
+  }
+  header .menyu-nomi {
+    text-align: center;
+  }
+  header .col-lg-7 {
+    font-size: 14px;
+    padding-left: 0px;
+  }
+  .mahsulot .col-lg-9 {
+    text-align: center;
+  }
+  .mahsulot .col-lg-9 .col-lg-4 .batafsil {
+    top: 55.3%;
+    font-size: 14px;
+  }
+  .karusel .carousel .carousel-control .glyphicon {
+    background: none;
+  }
+  .karusel .carousel .carousel-control .glyphicon:hover,
+  .karusel .carousel .carousel-control .glyphicon:focus {
+    background: none;
+  }
+  .karusel .carousel .carousel-caption {
+    font-size: 11px;
+    left: 9%;
+    width: 80%;
+  }
+}
